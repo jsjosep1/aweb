@@ -1,0 +1,247 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Shared Styles */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Home Page Section */
+.home_page {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10vh 2rem;
+    gap: 2rem;
+    position: relative;
+}
+
+.pfp {
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header {
+    padding-bottom: 1rem;
+}
+
+.introductionpara {
+    letter-spacing: 0.1em;
+    white-space: pre-wrap;
+    overflow: hidden;
+    width: 100%;
+    min-height: 150px;
+    line-height: 1.5em;
+}
+
+.intro {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.socials {
+    display: flex;
+}
+
+/* Links Styling */
+.list {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.list a {
+    font-size: 1.25rem;
+    padding: 1rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: background 0.5s, color 0.5s;
+}
+
+.list a:hover {
+    background: white;
+    color: black;
+}
+
+/* Education Section */
+.Education {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10vh 2rem;
+}
+
+.ucblogo {
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.ucblogo:hover {
+    filter: brightness(100%);
+}
+
+.Education h1 {
+    font-size: 2rem;
+}
+
+.Education h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.edbg {
+    text-align: left;
+    margin: 2rem 0;
+}
+
+.coursework {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Tech Skills Section */
+.techskills {
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.484);
+    color: white;
+    text-align: center;
+    padding: 10vh 2rem;
+}
+.thead {
+    padding-bottom: 5vh;
+    font-size: 2.5rem;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.25rem;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.skillset {
+    width: 90vw;
+    max-width: 500px; 
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.skillset p {
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+/* Projects Section */
+.projectsexp {
+    width: 100vw;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    text-align: center;
+    padding: 10vh 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.phead {
+    padding-bottom: 10vh;
+}
+/* About Me Section */
+.aboutme {
+    width: 100%;
+    background-color: rgba(89, 87, 87, 0.5);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 2rem;
+    gap: 2rem;
+}
+
+.aboutmepic {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Typography */
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .home_page {
+        flex-direction: row;
+        text-align: left;
+        gap: 3rem;
+    }
+
+    .intro {
+        font-size: 1.25rem;
+    }
+
+    .Education h1 {
+        font-size: 2.5rem;
+    }
+
+    .Education h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .home_page {
+        padding: 10vh 5rem;
+    }
+
+    .pfp {
+        width: 300px;
+        height: 300px;
+    }
+
+    .skillset {
+        max-width: 400px;
+    }
+}
