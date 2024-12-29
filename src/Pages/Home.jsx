@@ -83,7 +83,7 @@ export default function Home(){
             <img className="aboutmepic" width={500} height={500} src={aboutme} alt="profile-picture" data-aos="zoom-in"></img>
                 <div className="intro">
                     <h1 className="header" data-aos = "fade-down">About Me</h1>
-                    <p className="introductionpara" data-aos = "fade-down">My name is Aarav Bedi, and I am a proactive and passionate student at UC Berkeley, driven by a commitment to excellence in mechanical engineering. I aspire to contribute to innovative companies, aligning with their vision and mission to drive meaningful impact. I value teamwork, supporting my colleagues, and fostering a collaborative and positive work environment. My focus lies in identifying opportunities for growth and success, both for the team and the organization, while maintaining a people-first approach. </p>
+                    <p className="introductionpara" data-aos = "fade-down">My name is Aarav Bedi, and I am a proactive and passionate student at UC Berkeley, driven by a commitment to excellence in mechanical engineering. I aspire to contribute to innovative companies, aligning with their vision and mission to drive meaningful impact. I am an analytical thinker, detail-oriented, and adept at solving complex problems in manufacturing and engineering design. I value teamwork, supporting my colleagues, and fostering a collaborative and positive work environment. My focus lies in identifying opportunities for growth and success, both for the team and the organization, while maintaining a people-first approach. </p>
                 </div>
     
         </div>
