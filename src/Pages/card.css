@@ -54,4 +54,11 @@
   .card-link:hover {
     color: #ffffff;
   }
+
+  @media (max-width: 768px) {
+    .card-image {
+      object-fit: contain;
+    }
+    
+}
   
