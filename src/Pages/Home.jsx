@@ -72,9 +72,9 @@ export default function Home(){
             <h1 className="thead" data-aos="fade-up">Technical Skills</h1>
             <ul className="skills">
                 <h1 data-aos="fade-up"><FontAwesomeIcon icon={faLaptop} size="2x"/></h1>
-                <p data-aos="fade-up">SolidWorks, CATIA, CREO, Fusion 360, AutoCAD, TruckSIM, SmartUQ, Altair One HyperMesh FEA, MATLAB, troubleshooting, CFD Ansys, Firmware development, Python, C++, Unit testing, Test Automation for electro-mechanical systems.</p>
+                <p data-aos="fade-up">SolidWorks, CATIA, CREO, Fusion 360, AutoCAD, TruckSIM, SmartUQ, Altair One HyperMesh FEA, MATLAB, troubleshooting, CFD Ansys, Cadence, Firmware development, Python, C++, Unit testing, Test Automation for electro-mechanical systems.</p>
                 <h1 data-aos="fade-up"><FontAwesomeIcon icon={faScrewdriverWrench} size="2x"/></h1>
-                <p data-aos="fade-up">Cadence, Welding, Milling, CNC machining, 3D Printing, 3D Scanning, Instron Machine, laser cutting, TIG, Waterjet, Poly Jet Printers, Wood Shop, Lathes, Composites Layup.</p>
+                <p data-aos="fade-up">Welding, Milling, CNC machining, 3D Printing, 3D Scanning, Instron Machine, laser cutting, TIG, Waterjet, Poly Jet Printers, Wood Shop, Lathes, Composites Layup.</p>
     
             </ul>
         </div>
