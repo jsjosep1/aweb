@@ -46,7 +46,8 @@
   }
   
   .card-link {
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 10px;
     color: #ffffff;
     font-weight: bold;
   }
@@ -55,9 +56,18 @@
     color: #ffffff;
   }
 
+  .link-icon {
+    font-size: large;
+  }
+
   @media (max-width: 768px) {
     .card-image {
       object-fit: contain;
+    }
+
+    .card-link {
+      text-decoration: underline;
+      text-underline-offset: 10px;
     }
     
 }
