@@ -9,9 +9,11 @@ import Decor from './Pages/projects/decor/decor';
 import Miata from './Pages/projects/miata/miata';
 import Engraving from './Pages/projects/engraving/engraving';
 import Personal from './Pages/projects/pc/personalcad';
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
     <>
+    <Analytics/>
     <Router>
     <Navbar/>
     <div className="Container">
